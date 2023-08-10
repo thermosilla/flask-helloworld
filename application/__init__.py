@@ -4,4 +4,5 @@ app = Flask(__name__)
 
 import application.views
 
-app.run(host="0.0.0.0",port=8888)
+if __name__ == '__main__':
+    app.run()
